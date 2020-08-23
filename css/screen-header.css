@@ -4,6 +4,7 @@
   align-items: center;
   padding: 25px;
   padding-top: 51.8px;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,4 +13,15 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+@keyframes ratateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: ratateCog 3s linear infinite;
 }

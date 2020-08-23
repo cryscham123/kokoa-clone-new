@@ -1,8 +1,9 @@
-.user-component {
-  justify-content: space-between;
+.main-screen a {
+  text-decoration: none;
 }
 .user-component {
   display: flex;
+  justify-content: space-between;
   border-bottom: 10px black;
 }
 .user-component__column {
@@ -60,4 +61,14 @@
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  margin-bottom: 10px;
+}
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: rgba(255, 0, 0, 0.5);
 }
